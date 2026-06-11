@@ -1,0 +1,14 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>ServletDemo</servlet-name>
+        <servlet-class>ServletDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletDemo</servlet-name>
+        <url-pattern>/life</url-pattern>
+    </servlet-mapping>
+
+</web-app>
